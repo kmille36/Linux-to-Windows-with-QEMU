@@ -17,4 +17,4 @@ echo "Note: Use Right-Click To Copy"
 echo "Please Keep Cloud Shell Tab Open"
 echo Script by fb.com/thuong.hai.581
 cpu=$(echo nproc | bash)
-sudo qemu-system-x86_64 -vnc :0 -hda lite7.qcow2  -smp cores=$cpu  -m 3072M -machine usb=on -device usb-tablet > /dev/null 2>&1
+sudo qemu-system-x86_64 -vnc :0 -hda lite7.qcow2  -smp cores=6  -m 3072M -machine usb=on -device usb-tablet > /dev/null 2>&1
